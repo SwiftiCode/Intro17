@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		204E97B21D5C3EFE00B75509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97B11D5C3EFE00B75509 /* AppDelegate.swift */; };
-		204E97B41D5C3EFE00B75509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97B31D5C3EFE00B75509 /* ViewController.swift */; };
 		204E97B71D5C3EFE00B75509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204E97B51D5C3EFE00B75509 /* Main.storyboard */; };
 		204E97B91D5C3EFE00B75509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204E97B81D5C3EFE00B75509 /* Assets.xcassets */; };
 		204E97BC1D5C3EFE00B75509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204E97BA1D5C3EFE00B75509 /* LaunchScreen.storyboard */; };
 		204E97C71D5C3EFE00B75509 /* Intro17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97C61D5C3EFE00B75509 /* Intro17Tests.swift */; };
+		204E97D41D5C409D00B75509 /* FruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97D31D5C409D00B75509 /* FruitTableViewController.swift */; };
+		204E97D61D5C421A00B75509 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97D51D5C421A00B75509 /* FruitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		204E97AE1D5C3EFE00B75509 /* Intro17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intro17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204E97B11D5C3EFE00B75509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		204E97B31D5C3EFE00B75509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		204E97B61D5C3EFE00B75509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		204E97B81D5C3EFE00B75509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204E97BB1D5C3EFE00B75509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		204E97C21D5C3EFE00B75509 /* Intro17Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Intro17Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204E97C61D5C3EFE00B75509 /* Intro17Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro17Tests.swift; sourceTree = "<group>"; };
 		204E97C81D5C3EFE00B75509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204E97D31D5C409D00B75509 /* FruitTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
+		204E97D51D5C421A00B75509 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				204E97B11D5C3EFE00B75509 /* AppDelegate.swift */,
-				204E97B31D5C3EFE00B75509 /* ViewController.swift */,
 				204E97B51D5C3EFE00B75509 /* Main.storyboard */,
+				204E97D51D5C421A00B75509 /* FruitTableViewCell.swift */,
+				204E97D31D5C409D00B75509 /* FruitTableViewController.swift */,
 				204E97B81D5C3EFE00B75509 /* Assets.xcassets */,
 				204E97BA1D5C3EFE00B75509 /* LaunchScreen.storyboard */,
 				204E97BD1D5C3EFE00B75509 /* Info.plist */,
@@ -198,7 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204E97B41D5C3EFE00B75509 /* ViewController.swift in Sources */,
+				204E97D41D5C409D00B75509 /* FruitTableViewController.swift in Sources */,
+				204E97D61D5C421A00B75509 /* FruitTableViewCell.swift in Sources */,
 				204E97B21D5C3EFE00B75509 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
