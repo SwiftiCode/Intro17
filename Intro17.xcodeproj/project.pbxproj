@@ -146,7 +146,6 @@
 				TargetAttributes = {
 					204E97AD1D5C3EFE00B75509 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3E3L6L75YM;
 					};
 					204E97C11D5C3EFE00B75509 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -331,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Intro17/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifticode.Intro17;
@@ -342,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Intro17/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swifticode.Intro17;
